@@ -1,0 +1,9 @@
+applications:
+- name: bob1
+  path: ./target/bob1.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  host: bob11
+  domain: mybluemix.net
