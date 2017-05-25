@@ -13,7 +13,7 @@ toolchain:
 repo:
   service_id: githubpublic
   parameters:
-    repo_url: "repo_url: "{{repository}}"
+    repo_url: "{{repository}}"
     type: link
     has_issues: true
 
